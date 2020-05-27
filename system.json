@@ -14,7 +14,7 @@
   "gridDistance": 5,
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
+  "secondaryTokenAttribute": "stress",
   "url": "https://github.com/CityPhox/Mothership-FVTT",
   "manifest": "https://raw.githubusercontent.com/CityPhox/Mothership-FVTT/master/system.json",
   "download": "https://github.com/CityPhox/Mothership-FVTT/archive/master.zip",
