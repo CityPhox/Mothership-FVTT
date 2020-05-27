@@ -24,7 +24,21 @@
 		"value":45,
 		"label":"Str",
 		"dtype":"Number"
-	  }
+	  }, 
+      "speed":{
+		"value":45,
+		"label":"Spd",
+		"dtype":"Number"
+      },
+      "intellect":{
+		"value":45,
+		"label":"Int",
+		"dtype":"Number"
+      },
+      "combat":{
+		"value":45,
+		"label":"Com",
+		"dtype":"Number"
       }
   },
     "saves": {
