@@ -24,21 +24,7 @@
 		"value":45,
 		"label":"Str",
 		"dtype":"Number"
-	  }, 
-      "speed":{
-          "value": 0,
-		  "min": 6,
-		  "max": 100
-      },
-      "intellect":{
-          "value": 0,
-		  "min": 6,
-		  "max": 100
-      },
-      "combat":{
-          "value": 0,
-		  "min": 6,
-		  "max": 100
+	  }
       }
   },
     "saves": {
