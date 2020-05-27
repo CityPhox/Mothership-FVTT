@@ -1,10 +1,10 @@
 {
-  "name": "Mothership",
+  "name": "Mothership VTT",
   "title": "Mothership",
   "description": "Mothership is a sci-fi horror roleplaying game where you and your crew try to survive in the most inhospitable environment in the universe: outer space!",
   "version": 0.01,
   "minimumCoreVersion": "0.5.6",
-  "compatibleCoreVersion": "0.5.7",
+  "compatibleCoreVersion": "0.6.0",
   "templateVersion": 2,
   "author": "CityPhox",
   "esmodules": ["module/simple.js"],
