@@ -1,6 +1,6 @@
 {
 "Actor": {
-  "types": ["character","mercenary","npc","ship"],
+  "types": ["character"],
   "character": {
     "biography": "",
     "health": {
