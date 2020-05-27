@@ -20,48 +20,48 @@
       "max": 5
     },
     "attributes": {
-      "strength":[
+      "Strength":{
+		"value":45,
+		"label":"Str",
+		"dtype":"Number"
+	  }, 
+      "speed":{
           "value": 0,
 		  "min": 6,
 		  "max": 100
-      ],
-      "speed":[
+      },
+      "intellect":{
           "value": 0,
 		  "min": 6,
 		  "max": 100
-      ],
-      "intellect":[
+      },
+      "combat":{
           "value": 0,
 		  "min": 6,
 		  "max": 100
-      ],
-      "combat":[
-          "value": 0,
-		  "min": 6,
-		  "max": 100
-      ]
+      }
   },
     "saves": {
-      "sanity":[
+      "sanity":{
           "value": 0,
 		  "min": 0,
 		  "max": 100
-      ],
-      "fear":[
+      },
+      "fear":{
           "value": 0,
 		  "min": 0,
 		  "max": 100
-      ],
-      "body":[
+      },
+      "body":{
           "value": 0,
 		  "min": 0,
 		  "max": 100
-      ],
-      "armor":[
+      },
+      "armor":{
           "value": 0,
 		  "min": 0,
 		  "max": 100
-      ]
+      }
   }    
 },
 "Item": {
