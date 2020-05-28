@@ -1,6 +1,6 @@
 {
 "Actor": {
-  "types": ["character", "mercenary", "npc"],
+  "types": ["character"],
 	"character": {
 		"resources":{
 			"health": {
@@ -63,80 +63,7 @@
 				"max": 100
 			}
 		}    
-	},
-	"mercenary": {
-		"resources":{
-			"hits": {
-				"value": 1,
-				"min": 0,
-				"max": 10
-
-			}
-		},
-		"attributes": {
-			"Combat":{
-				"value":45,
-				"label":"Com",
-				"dtype":"Number"
-			}, 
-			"Instinct":{
-				"value":45,
-				"label":"Ins",
-				"dtype":"Number"
-			},
-			"Advance":{
-				"value":40,
-				"label":[null],
-				"dtype":"Number"
-			},
-			"Salary":{
-				"value":100,
-				"label":[null],
-				"dtype":"Number"
-			},
-			"Loadout":{
-				"value":[null],
-				"label":[null],
-				"dtype":"String"
-			},
-			"Skills":{
-				"value":[null],
-				"label":[null],
-				"dtype":"String"
-			}
-		},
-	},
-		"npc": {
-		"resources":{
-			"hits": {
-				"value": 1,
-				"min": 0,
-				"max": 10
-
-			}
-		},
-		"attributes": {
-			"Combat":{
-				"value":45,
-				"label":"Com",
-				"dtype":"Number"
-			}, 
-			"Instinct":{
-				"value":45,
-				"label":"Ins",
-				"dtype":"Number"
-			},
-			"Special Abilities":{
-				"value":[null],
-				"label":[null],
-				"dtype":"String"
-			},
-			"Skills":{
-				"value":[null],
-				"label":[null],
-				"dtype":"String"
-			}
-		},
+	}
 	}
 "Item": {
   "types": ["item"],
