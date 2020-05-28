@@ -1,69 +1,143 @@
 {
 "Actor": {
-  "types": ["character"],
-  "character": {
-    "biography": {
-		"biography": ""
+  "types": ["character", "mercenary", "npc"],
+	"character": {
+		"resources":{
+			"health": {
+				"value": 10,
+				"min": 0,
+				"max": 200
 			},
-    "health": {
-      "value": 10,
-      "min": 0,
-      "max": 200
-    },
-    "stress": {
-      "value": 2,
-      "min": 0
-    },
-    "resolve": {
-      "value": 0,
-      "min": 0,
-      "max": 5
-    },
-    "attributes": {
-      "Strength":{
-		"value":45,
-		"label":"Str",
-		"dtype":"Number"
-	  }, 
-      "speed":{
-		"value":45,
-		"label":"Spd",
-		"dtype":"Number"
-      },
-      "intellect":{
-		"value":45,
-		"label":"Int",
-		"dtype":"Number"
-      },
-      "combat":{
-		"value":45,
-		"label":"Com",
-		"dtype":"Number"
-      }
-  },
-    "saves": {
-      "sanity":{
+			"stress": {
+				"value": 2,
+				"min": 0,
+				"max": 100
+			},
+			"resolve": {
+				"value": 0,
+				"min": 0,
+				"max": 5
+			},
+		}.
+		"attributes": {
+			"Strength":{
+				"value":45,
+				"label":"Str",
+				"dtype":"Number"
+			}, 
+			"Speed":{
+				"value":45,
+				"label":"Spd",
+				"dtype":"Number"
+			},
+			"Intellect":{
+				"value":45,
+				"label":"Int",
+				"dtype":"Number"
+			},
+			"Combat":{
+				"value":45,
+				"label":"Com",
+				"dtype":"Number"
+			}
+		},
+		"saves": {
+			"sanity":{
+				"value": 0,
+				"min": 0,
+				"max": 100
+			},
+			"fear":{
           "value": 0,
 		  "min": 0,
 		  "max": 100
       },
-      "fear":{
-          "value": 0,
-		  "min": 0,
-		  "max": 100
-      },
-      "body":{
-          "value": 0,
-		  "min": 0,
-		  "max": 100
-      },
-      "armor":{
-          "value": 0,
-		  "min": 0,
-		  "max": 100
-      }
-  }    
-},
+					"body":{
+				"value": 0,
+				"min": 0,
+				"max": 100
+			},
+			"armor":{
+				"value": 0,
+				"min": 0,
+				"max": 100
+			}
+		}    
+	},
+	"mercenary": {
+		"resources":{
+			"hits": {
+				"value": 1,
+				"min": 0,
+				"max": 10
+
+			}
+		},
+		"attributes": {
+			"Combat":{
+				"value":45,
+				"label":"Com",
+				"dtype":"Number"
+			}, 
+			"Instinct":{
+				"value":45,
+				"label":"Ins",
+				"dtype":"Number"
+			},
+			"Advance":{
+				"value":40,
+				"label":[null],
+				"dtype":"Number"
+			},
+			"Salary":{
+				"value":100,
+				"label":[null],
+				"dtype":"Number"
+			},
+			"Loadout":{
+				"value":[null],
+				"label":[null],
+				"dtype":"String"
+			},
+			"Skills":{
+				"value":[null],
+				"label":[null],
+				"dtype":"String"
+			}
+		},
+	},
+		"npc": {
+		"resources":{
+			"hits": {
+				"value": 1,
+				"min": 0,
+				"max": 10
+
+			}
+		},
+		"attributes": {
+			"Combat":{
+				"value":45,
+				"label":"Com",
+				"dtype":"Number"
+			}, 
+			"Instinct":{
+				"value":45,
+				"label":"Ins",
+				"dtype":"Number"
+			},
+			"Special Abilities":{
+				"value":[null],
+				"label":[null],
+				"dtype":"String"
+			},
+			"Skills":{
+				"value":[null],
+				"label":[null],
+				"dtype":"String"
+			}
+		},
+	}
 "Item": {
   "types": ["item"],
   "item": {
